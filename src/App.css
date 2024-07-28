@@ -1,0 +1,63 @@
+.page-container {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.buttons {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn-bir {
+  background-color: #ff4081;
+}
+.btn-timeline {
+  background-color: #3f51b5;
+}
+.btn-gallery {
+  background-color: #4caf50;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.content-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+/* Media query cho iPhone 11 */
+@media screen and (max-width: 414px) {
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+    top: 10px;
+  }
+
+  .btn {
+    width: 80%;
+    text-align: center;
+  }
+}

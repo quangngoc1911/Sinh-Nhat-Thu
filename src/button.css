@@ -1,0 +1,27 @@
+.app {
+  text-align: center;
+  padding: 50px;
+}
+
+.btn {
+  min-width: 152px;
+  max-height: 40px;
+  padding: 8px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 16px;
+  background-color: #224922;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #3e853e;
+}
+
+.btn:focus {
+  background-color: #3e853e;
+  outline: none;
+}

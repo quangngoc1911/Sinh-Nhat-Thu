@@ -1,0 +1,61 @@
+@media screen and (max-width: 414px) {
+  /* Chiều rộng của iPhone 11 */
+  .avatar {
+    width: 160px !important;
+    height: 160px !important;
+  }
+}
+
+@media screen and (max-height: 896px) {
+  /* Chiều cao của iPhone 11 */
+  .container {
+    background-position-y: center !important;
+  }
+}
+.container {
+  text-align: center;
+}
+
+.avatar {
+  margin-top: 180px;
+  margin-bottom: 20px; /* Khoảng cách giữa ảnh và chữ */
+}
+
+.birthday-text {
+  font-family: "Brush Script MT", cursive;
+  font-size: 3rem;
+  color: red;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  position: relative;
+  display: inline-block;
+}
+
+.birthday-text::after {
+  color: red;
+  font-size: 3rem;
+  position: absolute;
+  right: -30px;
+  top: 0;
+}
+
+@media (min-width: 768px) {
+  .birthday-text {
+    font-size: 4rem;
+  }
+
+  .birthday-text::after {
+    font-size: 4rem;
+    right: -35px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .birthday-text {
+    font-size: 5rem;
+  }
+
+  .birthday-text::after {
+    font-size: 5rem;
+    right: -40px;
+  }
+}
