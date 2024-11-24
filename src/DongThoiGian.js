@@ -29,7 +29,7 @@ function DongThoiGian() {
   };
 
   useEffect(() => {
-    const startDate = "2024-05-05T00:00:00"; // Thời gian bắt đầu quen nhau
+    const startDate = "2024-10-01T00:00:00"; // Thời gian bắt đầu quen nhau
 
     const intervalId = setInterval(() => {
       const currentDate = new Date();
@@ -96,7 +96,7 @@ function DongThoiGian() {
                 }}
               >
                 <TypingEffect
-                  text="Chúc mừng sinh nhật em bé 🥳. Mong rằng tất cả ước mơ của em bé sẽ trở thành hiện thực và em bé sẽ luôn gặp được nhiều may mắn, hạnh phúc 🥰"
+                  text={`Chúc mừng sinh nhật em bé 🥳.<br />  Mong rằng tất cả ước mơ sẽ trở thành hiện thực và<br />em bé sẽ luôn gặp được nhiều may mắn, hạnh phúc 🥰`}
                   start={startTyping}
                   speed={100}
                 />

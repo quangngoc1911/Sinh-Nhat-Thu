@@ -3,8 +3,8 @@ import "./SinhNhat.css";
 
 function SinhNhat() {
   const avatarStyle = {
-    width: "240px",
-    height: "240px",
+    width: "260px",
+    height: "260px",
     boxShadow: "0 0 30px #eee",
     borderRadius: "50%",
     border: "5px solid rgb(255, 17, 0)",
@@ -35,7 +35,7 @@ function SinhNhat() {
         className="avatar"
       />
       <h1 className="birthday-text">Happy Birthday</h1>
-      <h1 className="birthday-text">Em bé Thu</h1>
+      <h1 className="birthday-text">Em bé Uyên</h1>
     </div>
   );
 }
